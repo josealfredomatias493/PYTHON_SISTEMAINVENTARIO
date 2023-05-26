@@ -19,7 +19,7 @@ class Application(tk.Frame):
     def __init__(self, master=None):
         super().__init__(master)
         self.conexionBD=pyodbc.connect('DRIVER={ODBC Driver 17 for SQL server};'
-                                'SERVER=JEFFERSON-PC;'
+                                'SERVER=JOSEMATIAS-PC;'
                                 'DATABASE=MegaMercado;'
                                 'Trusted_Connection=yes;')
 
